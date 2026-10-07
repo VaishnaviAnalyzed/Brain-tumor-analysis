@@ -1,0 +1,26 @@
+{
+  "counts": {
+    "train": {
+      "glioma": 564,
+      "meningioma": 358,
+      "no_tumor": 335,
+      "pituitary": 438
+    },
+    "valid": {
+      "glioma": 161,
+      "meningioma": 124,
+      "no_tumor": 99,
+      "pituitary": 118
+    },
+    "test": {
+      "glioma": 80,
+      "meningioma": 63,
+      "no_tumor": 49,
+      "pituitary": 54
+    }
+  },
+  "image_sizes": {
+    "640x640": 2443
+  },
+  "imbalance_ratio_train_max_min": 1.68
+}

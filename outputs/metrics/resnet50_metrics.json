@@ -1,0 +1,62 @@
+{
+  "model": "resnet50",
+  "accuracy": 0.9146341463414634,
+  "precision_macro": 0.9112904354205302,
+  "recall_macro": 0.9121031746031746,
+  "f1_macro": 0.9109843953681165,
+  "per_class": {
+    "glioma": {
+      "precision": 0.9620253164556962,
+      "recall": 0.95,
+      "f1-score": 0.9559748427672956,
+      "support": 80.0
+    },
+    "meningioma": {
+      "precision": 0.8548387096774194,
+      "recall": 0.8412698412698413,
+      "f1-score": 0.848,
+      "support": 63.0
+    },
+    "no_tumor": {
+      "precision": 0.9130434782608695,
+      "recall": 0.8571428571428571,
+      "f1-score": 0.8842105263157894,
+      "support": 49.0
+    },
+    "pituitary": {
+      "precision": 0.9152542372881356,
+      "recall": 1.0,
+      "f1-score": 0.9557522123893806,
+      "support": 54.0
+    }
+  },
+  "confusion_matrix": [
+    [
+      76,
+      4,
+      0,
+      0
+    ],
+    [
+      1,
+      53,
+      4,
+      5
+    ],
+    [
+      2,
+      5,
+      42,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      54
+    ]
+  ],
+  "params": 24114308,
+  "size_mb": 216.5,
+  "ms_per_image": 50.29
+}
