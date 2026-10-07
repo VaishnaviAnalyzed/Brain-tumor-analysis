@@ -1,0 +1,8 @@
+tensorflow>=2.15
+streamlit>=1.46
+numpy
+pandas
+pillow
+matplotlib
+seaborn
+scikit-learn
